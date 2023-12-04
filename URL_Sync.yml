@@ -1,0 +1,14 @@
+* URL for sync data:
+- Methoad: POST
+
+Example Sync-Local-API: 127.0.0.1:5001
+- http://127.0.0.1:5001/syncs/users : Sync users data from Central 
+- http://127.0.0.1:5001/syncs/ports : Sync ports data from  Central
+- http://127.0.0.1:5001/syncs/visas_types : Sync visa_types data from Central
+- http://127.0.0.1:5001/syncs/countries : Sync countries data from Central
+- http://127.0.0.1:5001/syncs/checklists : Sync checklists data to Central
+- http://127.0.0.1:5001/syncs/visas : Sync visas data to Central
+- http://127.0.0.1:5001/syncs/passports : Sync passports data to Central
+- http://127.0.0.1:5001/syncs/activities : Sync activities data to Central
+- http://127.0.0.1:5001/syncs/deleted_visas : Sync deleted_visas data to Central
+- http://127.0.0.1:5001/syncs/printed_visas : Sync printed_visas data to Central
